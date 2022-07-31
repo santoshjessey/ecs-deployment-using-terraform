@@ -33,7 +33,7 @@ To have basic understanding of terraform Deployment using Github actions, please
   6. Use of `workflow-dispatch` to trigger the workflow manually
   7. Use of `max-parallel` to run the job for both the environments in parallel
   8. Set working directory to any of your subfolder
-  9. Use of Environments in the workflow to approve the changes for higher environments if needed.
+  9. Use of Environments in the workflow to approve the changes for higher environments if needed
 
 
 
