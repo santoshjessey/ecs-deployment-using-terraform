@@ -18,7 +18,7 @@ resource "aws_security_group" "allow-external" {
 
   ingress {
     cidr_blocks = ["0.0.0.0/0"]
-    from_port   = "3000"
+    from_port   = "8080"
     protocol    = "tcp"
     self        = "false"
     to_port     = "8080"
