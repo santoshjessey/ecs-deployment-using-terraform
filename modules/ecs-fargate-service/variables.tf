@@ -1,18 +1,18 @@
 
 variable "cpu" {
-  default     = 512
+  default     = 256
   type        = number
   description = "Number of cpu units used by the task"
 }
 
 variable "ecs_cluster" {
   default     = null
-  description = "ECS Cluster name to deploy the service"
+  description = "terra-cluster"
 }
 
 variable "environment" {
   default     = ""
-  description = "Environment for deployment"
+  description = "master"
 }
 
 
@@ -23,7 +23,7 @@ variable "health_check_path" {
 
 
 variable "memory" {
-  default     = 1024
+  default     = 512
   type        = number
   description = "Amount (in MiB) of memory used by the task"
 }
