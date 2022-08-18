@@ -1,3 +1,3 @@
 region = "us-east-2"
 bucket = "san-githubactions-cicd"
-key    = "test/terraform.tfstate"
+key    = "ecs-cluster/test/terraform.tfstate"
