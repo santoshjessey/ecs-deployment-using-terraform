@@ -7,7 +7,7 @@ data "aws_vpc" "selected" {
 data "aws_subnet_ids" "public" {
   vpc_id = data.aws_vpc.selected.id
  tags = {
-    Name = "Public"
+    Name = "*Public*"
   }
 }
 
